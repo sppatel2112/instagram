@@ -99,7 +99,6 @@ public class LoginActivity extends AppCompatActivity {
                     return;
                 }
                 goMainActivity();
-                Toast.makeText(LoginActivity.this, "Logged in!", Toast.LENGTH_SHORT).show();
             }
         });
     }
